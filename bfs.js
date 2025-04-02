@@ -92,6 +92,20 @@ const testArray = [3, 9, 20, null, null, 15, 7];
 const tree = fromArrayToRootNode(testArray);
 console.log("NEWLY CREATED TREE: \n", tree);
 console.log("level order traversal output: ", levelOrder(tree));
+// This code outputs the following:
+/*
+NEWLY CREATED TREE: 
+ TreeNode {
+  val: 3,
+  left: TreeNode { val: 9, left: null, right: null },
+  right: TreeNode {
+    val: 20,
+    left: TreeNode { val: 15, left: null, right: null },
+    right: TreeNode { val: 7, left: null, right: null }
+  }
+}
+level order traversal output:  [ [ 3 ], [ 9, 20 ], [ 15, 7 ] ]
+*/
 
 
 
