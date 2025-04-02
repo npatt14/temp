@@ -92,6 +92,9 @@ const testArray = [3, 9, 20, null, null, 15, 7];
 const tree = fromArrayToRootNode(testArray);
 console.log("NEWLY CREATED TREE: \n", tree);
 console.log("level order traversal output: ", levelOrder(tree));
+
+
+
 // This code outputs the following:
 /*
 NEWLY CREATED TREE: 
